@@ -61,3 +61,8 @@ let dataWithPrice = [
 
 // Fungsi untuk memfilter data dengan harga > min_price
 const getDataByPrice = (minPrice) => dataWithPrice.filter(item => item.price > minPrice);
+console.log("Semua Data:", getAllData());
+console.log("Data berdasarkan Nama (Jane Smith):", getDataByName('Jane Smith'));
+console.log("Data berdasarkan Kota (New York):", getDataByCity('New York'));
+console.log("Data berdasarkan Umur (>= 30):", getDataByAge(30));
+console.log("Data berdasarkan Harga (> 150):", getDataByPrice(150));
