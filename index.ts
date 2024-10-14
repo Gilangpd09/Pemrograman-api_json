@@ -60,3 +60,12 @@ console.log("Data dengan Umur >= 30:", getByAge(30));
 // 5. Dapatkan data dengan work singer
 const getByWork = (pekerjaan) => data.filter(person => person.work.includes(pekerjaan));
 console.log("Data dengan Pekerjaan 'singer':", getByWork('singer'));
+
+//6. Dapatkan data dengan nomor telephone tertentu
+function getDataByPhone(phoneNumber) {
+    return data.find(person => person.phone === phoneNumber);
+}
+const phoneToSearch = '111-2345-678';//contoh phoneNumber
+const result = getDataByPhone(phoneToSearch);
+
+console.log(result);
