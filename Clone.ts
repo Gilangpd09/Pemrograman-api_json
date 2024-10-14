@@ -39,6 +39,12 @@ let data = [
     },
 ];
 
+//TODO 1 : dapatkan semua data
+//TODO 2 : dapatkan data dengan nama tertentu
+//TODO 3 : dapatkan data dengan alamat New York
+//TODO 4 : dapatkan data dengan umur >= 30
+// filter data by price > min_price
+
 // Fungsi untuk mendapatkan semua data
 const getAllData = () => data;
 
